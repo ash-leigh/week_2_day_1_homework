@@ -18,4 +18,6 @@ class TestRiver < MiniTest::Test
     assert_equal(3, @river.number_of_fish())
   end
 
+
+
 end
