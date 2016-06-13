@@ -8,8 +8,6 @@ class TestBear < MiniTest::Test
     bear_1 = Bear.new("Winnie the pooh", "Honey", Array.new)
     bear_2 = Bear.new("Yogi", "Brown", Array.new)
     bear_3 = Bear.new("Baloo", "Jungle", Array.new)
-
-    @food = []
    end
 
   def test_roar

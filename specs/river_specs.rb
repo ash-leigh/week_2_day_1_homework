@@ -14,7 +14,7 @@ class TestRiver < MiniTest::Test
     @river = River.new(fishes)
   end
 
-  def test_river_initial_state
+  def test_number_of_fish
     assert_equal(3, @river.number_of_fish())
   end
 

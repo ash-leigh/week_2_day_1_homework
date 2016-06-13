@@ -1,6 +1,6 @@
 class Bear
 
-attr_reader :river 
+attr_reader :number_of_fish
 
   def initialize(input_name, input_type, input_tummy)
     @name = input_name
@@ -14,8 +14,9 @@ attr_reader :river
   end
 
   def take_fish_from_river
-    @tummy << @fishes.pop
-    return @tummy.length
+    return @tummy << @fishes.pop! if number_of_fish != 0
+      else
+      return "Oh no, no fish for you"
   end
 
 end
