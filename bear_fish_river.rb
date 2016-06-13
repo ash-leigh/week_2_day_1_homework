@@ -1,19 +1,11 @@
-class Bear
-  def initialize()
-    @roar
-    @type
-    @name
-    @tummy
+class BearRiverFish
+  
+  def initialize(input_bear, input_fish, input_river)
+  @bear = input_accounts
+  @fish = input_fish
+  @river = input_river
   end
+
 end
 
-class Fish
-  def initialize()
-    @name
-  end
-end
 
-class River
-  def initialize()
-  end
-end
