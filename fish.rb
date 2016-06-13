@@ -1,6 +1,6 @@
 class Fish
-  def initialize()
-    @name
+  def initialize(input_name)
+    @name = input_name
   end
 
   def name()

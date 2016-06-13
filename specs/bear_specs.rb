@@ -1,5 +1,6 @@
 require ('minitest/autorun')
 require_relative('../bear')
+require_relative('../river')
 
 class TestBear < MiniTest::Test
 
@@ -15,9 +16,3 @@ class TestBear < MiniTest::Test
   end
 
 end
-
-#Oh Tigger, where are your manners?"
-
-#Boo Boo, you've tried to stop my brilliant ideas with common sense a thousand times. Has it ever worked?
-
-#Beautiful! That's real jungle harmony.
