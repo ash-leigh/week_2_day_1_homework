@@ -7,4 +7,9 @@ class River
     return @fishes.length
   end
 
+  def remove_fish 
+    @fishes.pop
+    return number_of_fish
+  end
+
 end
