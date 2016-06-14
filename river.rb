@@ -8,7 +8,8 @@ class River
   end
 
   def first_fish
-    return @fishes[0]
+    @fishes[0]
+    return number_of_fish
   end
 
   def remove_fish 
