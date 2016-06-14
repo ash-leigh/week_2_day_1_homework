@@ -20,7 +20,4 @@ class TestBear < MiniTest::Test
     assert_equal(1, bear.take_fish_from_river)
   end
 
-
-
-
 end
