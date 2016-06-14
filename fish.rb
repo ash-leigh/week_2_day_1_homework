@@ -1,9 +1,17 @@
 class Fish
-  def initialize(input_name)
-    @name = input_name
+
+  attr_reader :name
+
+  def initialize(name)
+    @name = name
   end
 
   def name()
     return @name
   end
 end
+
+#Review solution
+#same as above
+
+
